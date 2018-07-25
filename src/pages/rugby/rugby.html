@@ -1,0 +1,52 @@
+<!--
+  Generated template for the RugbyPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title text-center>Rugby</ion-title>
+    <button (click)="undo()">Undo</button>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding  id="Background"
+*ngFor="let i of awe" > 
+
+    <ion-card (click)="check('A')" class="leftBox">
+        <ion-card-header>
+            <p style="font-size: 2em; text-align: center;">{{i.teama}}</p> 
+        </ion-card-header>
+        <ion-card-content>
+            <h1 style="font-size: 4em; text-align: center;">{{HSCORE}}</h1>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card   (click)="checkS('B')" class="rightBox">
+          <ion-card-header>
+             <p style="font-size: 2em;text-align: center;"> {{i.teamb}} </p>
+          </ion-card-header>
+          <ion-card-content>
+             <h1 style="font-size: 4em;text-align: center;"> {{ASCORE}} </h1>
+          </ion-card-content>
+        </ion-card>
+
+   <br > <br>
+   <div class="btnTag1">
+   <button ion-button small (click)="Trys()" style="margin-left: 20px; width: 95px; height: 95px  ; opacity: 0.8; border-radius: 50%;">Try</button> 
+   <button ion-button small 
+    (click)="Penalty()" style="margin-left: 20px; width: 95px; height: 95px  ; opacity: 0.8; border-radius: 50%;">Penalty</button>
+   <button ion-button small  (click)="Conversion()" style="margin-left: 20px; width: 95px; height: 95px  ; opacity: 0.8; border-radius: 50%;">Conversion</button> 
+   </div>
+
+   <div class="btnTag2">
+   <button ion-button small  (click)="Reset()" style="margin-left: 100px;margin-top: 30px; width: 65px; height: 65px  ; opacity: 0.8; border-radius: 50%; background-color:lawngreen;">RESET</button>
+   <button ion-button small  (click)="Undo()" style="margin-left: 40px; margin-top: 30px; width: 65px; height: 65px  ; opacity: 0.8; border-radius: 50%; background-color: crimson;">Undo</button>
+    </div>
+    
+</ion-content>

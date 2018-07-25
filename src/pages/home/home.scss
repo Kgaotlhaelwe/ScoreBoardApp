@@ -1,3 +1,39 @@
 page-home {
 
+    input[type=text]:focus {
+        background-color: lightblue;
+        margin-left:15%; 
+    }
+
+    #logo{
+        border-radius: 200%;
+    }
+
+    h1{
+        padding-left: 25%;
+        color: cornflowerblue;
+    }
+
+    h3{
+        
+        color: white;
+    }
+
+
+    #Background{
+        background-image: url("../../assets/imgs/img_pages_mobile-app_teal-background.png");
+        opacity: 15%;
+       
+    }
+
+    button{
+        border: 5px cornflowerblue;
+    }
+
+   
+
+    
+
+    
+
 }

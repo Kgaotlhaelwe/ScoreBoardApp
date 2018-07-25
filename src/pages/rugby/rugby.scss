@@ -1,0 +1,91 @@
+page-rugby {
+
+    #Bigbox{
+        width:100%;
+        height: 200px;
+        margin-top: 35%;
+        
+        border: solid 10px WHITE;
+    }
+
+    .middlebox{
+        width :35%;
+        border: solid 5px WHITE;
+        margin-top: 5%;
+        margin-left: 9%;
+
+        height: 150px;
+        float: left;
+        
+
+    }
+
+   
+    .middlebox h1{
+        padding-left: 30%;
+        color:white;
+    }
+
+    
+
+    .smallbox{
+
+        width :35%;
+        border: solid 2px gray;
+        margin-top: 5%;
+        margin-left: 15%;
+
+        height: 50px;
+        float: left;
+
+    }
+
+   :active .middlebox:hover{
+       background-color:green;
+
+
+
+   }
+
+   
+   #Background{
+    background-image: url("../../assets/imgs/Sports-Stadium-l.jpg");
+   
+}
+
+}
+
+
+.leftBox{
+    border: solid 2px cornflowerblue;
+    opacity: 0.8; 
+}
+
+
+
+
+
+.rightBox{
+    border: solid 2px cornflowerblue;
+    opacity: 0.8; 
+}
+
+.btntry{
+    width:60px;
+}
+
+.btnTag1{
+    border: solid 0px cornflowerblue;
+    margin-left: -20px;
+    width:520px;
+    height: 80px;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+.btnTag2{
+    border: solid 0px cornflowerblue;
+    margin-left: -20px;
+    width:520px;
+    height: 120px;
+}
